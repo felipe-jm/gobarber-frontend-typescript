@@ -10,20 +10,26 @@ export const HeaderContent = styled.div`
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   > img {
     height: 80px;
   }
 
-  button {
-    margin-left: auto;
-    background: transparent;
-    border: 0;
+  div {
+    display: flex;
+    align-items: center;
 
-    svg {
-      color: #999591;
-      width: 20px;
-      height: 20px;
+    button {
+      margin-left: 12px;
+      background: transparent;
+      border: 0;
+
+      svg {
+        color: #999591;
+        width: 20px;
+        height: 20px;
+      }
     }
   }
 `;
