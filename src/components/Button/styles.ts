@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import { shade } from 'polished';
 
 export const Container = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background: #ff9000;
   height: 56px;
   border-radius: 10px;
